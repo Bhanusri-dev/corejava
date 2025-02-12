@@ -9,7 +9,7 @@ public class VariablesTypes {
 		VariablesTypes vt = new VariablesTypes();
 		System.out.println(vt.num);
 		System.out.println(vt.name);
-		
+System.out.println("sai");		
 	}
 
 }

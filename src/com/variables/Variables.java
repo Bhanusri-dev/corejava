@@ -27,5 +27,7 @@ public class Variables {
         System.out.println("boolean isJavaFun: " + isJavaFun);
         System.out.println("String str: " + str);
         System.out.println("Integer integerObj: " + integerObj);
+        
+        System.out.println("end");
     }
 }

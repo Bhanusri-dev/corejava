@@ -7,6 +7,8 @@ public class Constructor {
 		super();
 		this.num1 = num1;
 		this.num2 = num2;
+		int num3 = num1* num2;
+		System.out.println(num3);
 		
 	}
 	public Constructor() {

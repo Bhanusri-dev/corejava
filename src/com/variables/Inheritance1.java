@@ -9,6 +9,7 @@ public class Inheritance1 extends Inheritance{
 		}
 	public static void main(String[] args) {
 		Inheritance1 nm = new Inheritance1();
+		nm.mul();
 		System.out.println(nm.num);
 		System.out.println(nm.add(100,200));
 		

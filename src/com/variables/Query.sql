@@ -10,3 +10,9 @@ select avg(esalary) from interview.employee;
 select sum(esalary) from interview.employee;
 select min(esalary) from interview.employee;
 select max(esalary) from interview.employee;
+ \\ where
+ select * from interview.employee where eid=2;
+ select * from interview.employee where salary<50000;
+ \\order by means sort the order
+ select * from interview.employee order by esalary desc;
+ select * from interview.employee order by esalary asc; 

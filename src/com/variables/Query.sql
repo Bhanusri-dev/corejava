@@ -4,3 +4,9 @@ insert into interview.employee(eid , ename, esalary, depart) values(1 ,"sai", 20
 select* from interview.employee;
 select ename from interview.employee;
 select eid,ename from interview.employee;
+\\aggregate functions
+select count(*) from interview.employee;
+select avg(esalary) from interview.employee;
+select sum(esalary) from interview.employee;
+select min(esalary) from interview.employee;
+select max(esalary) from interview.employee;

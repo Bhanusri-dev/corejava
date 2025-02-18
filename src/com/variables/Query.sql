@@ -50,6 +50,33 @@ alter table interview.employee rename esalary to salary;
 ALTER TABLE table_name
 RENAME COLUMN old_name to new_name;
 
+\\DELETE - DELETE THE COLUMN
+\\DROP- DELETE THE TEBLE
+\\TRUNCATE- DELETE ALL THE ROWS DATA in a table.
+
+\\ you can have many UNIQUE constraints per table, but only one PRIMARY KEY constraint per table.
+CREATE TABLE Persons (
+    ID int NOT NULL UNIQUE,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int
+);
+FOREIGN KEY is a field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table.
+CREATE TABLE Orders (
+    OrderID int NOT NULL,
+    OrderNumber int NOT NULL,
+    PersonID int,
+    PRIMARY KEY (OrderID),
+    FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)
+);
+
+
+
+
+
+
+
+
 
 
 

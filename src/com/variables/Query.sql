@@ -12,8 +12,9 @@ select min(esalary) from interview.employee;
 select max(esalary) from interview.employee;
  \\ where
  select * from interview.employee where eid=2;
- select * from interview.employee where salary<50000;
- select * from interview.employee where salary between 20000 and 50000;
+ select * from interview.employee where esalary<50000;
+ select * from interview.employee where esalary between 20000 and 50000;
+ select * from interview.employee1 where ename like s%;
  \\order by means sort the order
  select * from interview.employee order by esalary desc;
  select * from interview.employee order by esalary asc; 

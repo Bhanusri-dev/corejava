@@ -1,6 +1,7 @@
 create database interview;
 create table  interview.employee(eid int(10), ename varchar(20), esalary int(20), depart varchar(10));
 
+\\INSERT INTO statement is used to insert new records in a table.
 insert into interview.employee(eid , ename, esalary, depart) values(1 ,"sai", 20000,"IT"),(2,"bhanu",30000,"JAVA"),(3,"chinni",40000,"JAVA"),(4,"chodisetti",50000,"IT"),(5,"jagannadha",45000,"JAVA");
 
 select* from interview.employee;
@@ -33,6 +34,10 @@ select * from interview.employee where depart='IT' or ename like 's%';
 
 \\NOT operator is used in combination with other operators to give the opposite result
 select * from interview.employee where not depart='IT';
+
+
+\\UPDATE statement is used to modify the existing records in a table.
+update interview.employee set ename='sai' where depart ='IT';
 
 
 

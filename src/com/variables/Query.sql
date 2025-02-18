@@ -28,8 +28,21 @@ select max(esalary) from interview.employee;
  select * from interview.employee where esalary>20000 And ename like 's%';
  
  
-\\OR-
+\\OR-if any one condition is true 
 select * from interview.employee where depart='IT' or ename like 's%';
+
+\\NOT operator is used in combination with other operators to give the opposite result
+select * from interview.employee where not depart='IT';
+
+
+
+
+
+
+
+
+
+
 
  
  

@@ -39,6 +39,17 @@ select * from interview.employee where not depart='IT';
 \\UPDATE statement is used to modify the existing records in a table.
 update interview.employee set ename='sai' where depart ='IT';
 
+\\delete all rows in a table without deleting the table
+delete from interview.employee;
+
+\\ALTER TABLE statement is used to add, delete, or modify columns in an existing table.
+ALTER table interview.employee add address varchar(20);
+ALTER TABLE table_name
+ADD column_name datatype;
+alter table interview.employee rename esalary to salary;
+ALTER TABLE table_name
+RENAME COLUMN old_name to new_name;
+
 
 
 
